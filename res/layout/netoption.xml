@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip">
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="打开蓝牙"
+                android:onClick="OpenBluetooth"
+                />
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="关闭蓝牙"
+                android:onClick="CloseBluetooth"
+		 />
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="允许搜索"
+                android:onClick="EnableSearchable"
+		/>
+
+        <Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="返回"
+		android:onClick="Goback"
+                />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip">
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="新建"
+		android:onClick="CreateScreen"
+                />
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="拼接"
+                android:onClick="JoinNetwork"
+		/>
+
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="网络"
+		android:onClick="NetOption" />
+		
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Image"
+		android:onClick="ShowImage" /> 
+
+</LinearLayout>
